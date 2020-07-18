@@ -1,4 +1,4 @@
-Mock Sock
+# Mock Sock
 
 Mock Sock is a virtual puppet theatre that will allow for the user to make 
 shapes of the sock puppet with their hands and it will display the puppet on 
@@ -7,7 +7,7 @@ the screen. The sock design will be molded over their hand and displayed in
 accessories, and background options. They can also add interactive objects 
 such as balls, apple, or cars.
 
-How to run
+## How to run
 
 Before running the program, open the MockSock.py folder and change the line
 with the sys.path.insert to match the path to LeapSDK in your computer and 
@@ -18,7 +18,7 @@ start the program. A tkinter window will pop up that displays the graphics.
 Make sure the leap motion is connected before starting. If the leap motion 
 is connected the frame information will begin to print in the terminal. 
 
-Libraries Needed
+## Libraries Needed
 
 Be sure to import Leap, sys, math, thread, pyaudio and shapely properly before
 running. 
@@ -30,7 +30,3 @@ Based on which windows bit version you are on
 To install pyaudio pip install the following
 	python -m pip install pyaudio
 Sys, thread, and math should be built in libraries
-
-Shortcut Commands
-
-None
