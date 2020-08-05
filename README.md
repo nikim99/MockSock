@@ -22,11 +22,18 @@ is connected the frame information will begin to print in the terminal.
 
 Be sure to import Leap, sys, math, thread, pyaudio and shapely properly before
 running. 
+
 Leap can be installed from https://www.leapmotion.com/setup/desktop/windows/ 
+
 Shapely can be installed from pip installing either 
-Shapely‑1.6.4.post1‑cp27‑cp27m‑win32.whl
-Shapely‑1.6.4.post1‑cp27‑cp27m‑win_amd64.whl
+
+- Shapely‑1.6.4.post1‑cp27‑cp27m‑win32.whl
+- Shapely‑1.6.4.post1‑cp27‑cp27m‑win_amd64.whl
+
 Based on which windows bit version you are on 
+
 To install pyaudio pip install the following
+
 	python -m pip install pyaudio
+	
 Sys, thread, and math should be built in libraries
